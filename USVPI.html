@@ -1,0 +1,2359 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_476348cecf414ee3b155a0708e849b23 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_476348cecf414ee3b155a0708e849b23" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_476348cecf414ee3b155a0708e849b23 = L.map(
+        'map_476348cecf414ee3b155a0708e849b23', {
+        center: [39.8283, -98.5795],
+        zoom: 5,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_7abaf14916a54375860dee77d08839f2 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_476348cecf414ee3b155a0708e849b23);
+    
+            var feature_group_bc8cd77509fd4402aea80364de3c4c9f = L.featureGroup(
+                ).addTo(map_476348cecf414ee3b155a0708e849b23);
+        
+    
+            var circle_marker_8800a84354484d809c9ba6c4a6b5d0b2 = L.circleMarker(
+                [48.7767982, -121.810997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_ee85098aaf774b7e9d7f73a0107b20eb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c647060ac6fb48d0833356cfacaaccbe = $('<div id="html_c647060ac6fb48d0833356cfacaaccbe" style="width: 100.0%; height: 100.0%;">Baker.  Elevation: 10777 ft.  2389 miles from Elvis.</div>')[0];
+                popup_ee85098aaf774b7e9d7f73a0107b20eb.setContent(html_c647060ac6fb48d0833356cfacaaccbe);
+            
+
+            circle_marker_8800a84354484d809c9ba6c4a6b5d0b2.bindPopup(popup_ee85098aaf774b7e9d7f73a0107b20eb)
+            ;
+
+            
+        
+    
+            var circle_marker_31a6619369484cc68f91e6b171803f5c = L.circleMarker(
+                [48.1118011, -121.1110001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_1e507b7844914c95876fd57f51b66941 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8b935926b63f49a89d2eeed5fe5a988f = $('<div id="html_8b935926b63f49a89d2eeed5fe5a988f" style="width: 100.0%; height: 100.0%;">Glacier Peak.  Elevation: 10541 ft.  2326 miles from Elvis.</div>')[0];
+                popup_1e507b7844914c95876fd57f51b66941.setContent(html_8b935926b63f49a89d2eeed5fe5a988f);
+            
+
+            circle_marker_31a6619369484cc68f91e6b171803f5c.bindPopup(popup_1e507b7844914c95876fd57f51b66941)
+            ;
+
+            
+        
+    
+            var circle_marker_8cd02de6f9f54a45ab7955bb9b7efc76 = L.circleMarker(
+                [46.8698006, -121.7509995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_1348f660ce6e49c591e38f7441c85153 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bbd4b42c27ea4bd79665e2c0de3a798e = $('<div id="html_bbd4b42c27ea4bd79665e2c0de3a798e" style="width: 100.0%; height: 100.0%;">Rainier.  Elevation: 14409 ft.  2336 miles from Elvis.</div>')[0];
+                popup_1348f660ce6e49c591e38f7441c85153.setContent(html_bbd4b42c27ea4bd79665e2c0de3a798e);
+            
+
+            circle_marker_8cd02de6f9f54a45ab7955bb9b7efc76.bindPopup(popup_1348f660ce6e49c591e38f7441c85153)
+            ;
+
+            
+        
+    
+            var circle_marker_c5be7eafff4e43e9929346e199e62e92 = L.circleMarker(
+                [46.1997986, -122.1809998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_4e5746ffcbef4974a8da5ffb3480689f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7b7615db476d4a3ea287046d76b83e6b = $('<div id="html_7b7615db476d4a3ea287046d76b83e6b" style="width: 100.0%; height: 100.0%;">St. Helens.  Elevation: 8362 ft.  2348 miles from Elvis.</div>')[0];
+                popup_4e5746ffcbef4974a8da5ffb3480689f.setContent(html_7b7615db476d4a3ea287046d76b83e6b);
+            
+
+            circle_marker_c5be7eafff4e43e9929346e199e62e92.bindPopup(popup_4e5746ffcbef4974a8da5ffb3480689f)
+            ;
+
+            
+        
+    
+            var circle_marker_ad403cfeefc74074ac0362e12fc4ef35 = L.circleMarker(
+                [46.20579910000001, -121.4909973],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_a21ea1498fb84c4984ba1cbd6cf4e82b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bc1fb0259c7947ca87ddd0ed6fbb40ec = $('<div id="html_bc1fb0259c7947ca87ddd0ed6fbb40ec" style="width: 100.0%; height: 100.0%;">Adams.  Elevation: 12276 ft.  2303 miles from Elvis.</div>')[0];
+                popup_a21ea1498fb84c4984ba1cbd6cf4e82b.setContent(html_bc1fb0259c7947ca87ddd0ed6fbb40ec);
+            
+
+            circle_marker_ad403cfeefc74074ac0362e12fc4ef35.bindPopup(popup_a21ea1498fb84c4984ba1cbd6cf4e82b)
+            ;
+
+            
+        
+    
+            var circle_marker_ebe79a4d85db4db7a3a06186e284581f = L.circleMarker(
+                [45.8797989, -122.0810013],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_739c7ce86f7243c0b47f1fc939cc3d73 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9a163e699e874fe0b5325fbf7e403be3 = $('<div id="html_9a163e699e874fe0b5325fbf7e403be3" style="width: 100.0%; height: 100.0%;">West Crater.  Elevation: 4360 ft.  2334 miles from Elvis.</div>')[0];
+                popup_739c7ce86f7243c0b47f1fc939cc3d73.setContent(html_9a163e699e874fe0b5325fbf7e403be3);
+            
+
+            circle_marker_ebe79a4d85db4db7a3a06186e284581f.bindPopup(popup_739c7ce86f7243c0b47f1fc939cc3d73)
+            ;
+
+            
+        
+    
+            var circle_marker_af444db7cdce4614b1c56d7326468acc = L.circleMarker(
+                [45.929798100000006, -121.8209991],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_0abca520fc97496593d9b8d8e7def087 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c9c73359e13546b89408f566d5865afc = $('<div id="html_c9c73359e13546b89408f566d5865afc" style="width: 100.0%; height: 100.0%;">Indian Heaven.  Elevation: 5925 ft.  2318 miles from Elvis.</div>')[0];
+                popup_0abca520fc97496593d9b8d8e7def087.setContent(html_c9c73359e13546b89408f566d5865afc);
+            
+
+            circle_marker_af444db7cdce4614b1c56d7326468acc.bindPopup(popup_0abca520fc97496593d9b8d8e7def087)
+            ;
+
+            
+        
+    
+            var circle_marker_138bce2c10c148eaa5d73d12dc26b9db = L.circleMarker(
+                [45.3737984, -121.6910019],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_786a8462c6cb468bac94898aa1917cc1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_59199dd95ec4430cad980199c388d1b8 = $('<div id="html_59199dd95ec4430cad980199c388d1b8" style="width: 100.0%; height: 100.0%;">Hood.  Elevation: 11240 ft.  2298 miles from Elvis.</div>')[0];
+                popup_786a8462c6cb468bac94898aa1917cc1.setContent(html_59199dd95ec4430cad980199c388d1b8);
+            
+
+            circle_marker_138bce2c10c148eaa5d73d12dc26b9db.bindPopup(popup_786a8462c6cb468bac94898aa1917cc1)
+            ;
+
+            
+        
+    
+            var circle_marker_aa9c455bab6d4133879aebd4e96acece = L.circleMarker(
+                [44.691799200000005, -121.8010025],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_d40226fb9ce144609fdf9daa9fb78b5d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c08f7c48b70c4f77ad333e9f8c2e5b6f = $('<div id="html_c08f7c48b70c4f77ad333e9f8c2e5b6f" style="width: 100.0%; height: 100.0%;">Jefferson.  Elevation: 10495 ft.  2291 miles from Elvis.</div>')[0];
+                popup_d40226fb9ce144609fdf9daa9fb78b5d.setContent(html_c08f7c48b70c4f77ad333e9f8c2e5b6f);
+            
+
+            circle_marker_aa9c455bab6d4133879aebd4e96acece.bindPopup(popup_d40226fb9ce144609fdf9daa9fb78b5d)
+            ;
+
+            
+        
+    
+            var circle_marker_b6d18695950a4002b2b1110105e7ee02 = L.circleMarker(
+                [44.4197998, -121.7710037],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_5eb2b79298f144419c2a15b7c084909a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bc5ee554c1e74528a303ceda30c072bc = $('<div id="html_bc5ee554c1e74528a303ceda30c072bc" style="width: 100.0%; height: 100.0%;">Blue Lake Crater.  Elevation: 4035 ft.  2283 miles from Elvis.</div>')[0];
+                popup_5eb2b79298f144419c2a15b7c084909a.setContent(html_bc5ee554c1e74528a303ceda30c072bc);
+            
+
+            circle_marker_b6d18695950a4002b2b1110105e7ee02.bindPopup(popup_5eb2b79298f144419c2a15b7c084909a)
+            ;
+
+            
+        
+    
+            var circle_marker_91d705bee7994104976ca11dbe55e0a5 = L.circleMarker(
+                [44.3797989, -121.9309998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_a9423dac053741bdbb497857c7ad9d37 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4c9ea92552744988b569e45b6d4d952c = $('<div id="html_4c9ea92552744988b569e45b6d4d952c" style="width: 100.0%; height: 100.0%;">Sand Mountain Field.  Elevation: 5459 ft.  2293 miles from Elvis.</div>')[0];
+                popup_a9423dac053741bdbb497857c7ad9d37.setContent(html_4c9ea92552744988b569e45b6d4d952c);
+            
+
+            circle_marker_91d705bee7994104976ca11dbe55e0a5.bindPopup(popup_a9423dac053741bdbb497857c7ad9d37)
+            ;
+
+            
+        
+    
+            var circle_marker_22501ead24d1482f8df80613479ba58b = L.circleMarker(
+                [44.331798600000006, -121.8310013],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_1a9b862c7fcb48f08807d638d0d6d73b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9c8d4c7315234ff1a4b737fb205c902f = $('<div id="html_9c8d4c7315234ff1a4b737fb205c902f" style="width: 100.0%; height: 100.0%;">Washington.  Elevation: 7795 ft.  2286 miles from Elvis.</div>')[0];
+                popup_1a9b862c7fcb48f08807d638d0d6d73b.setContent(html_9c8d4c7315234ff1a4b737fb205c902f);
+            
+
+            circle_marker_22501ead24d1482f8df80613479ba58b.bindPopup(popup_1a9b862c7fcb48f08807d638d0d6d73b)
+            ;
+
+            
+        
+    
+            var circle_marker_abe384fc359c4cb18cb2f3ead14b2266 = L.circleMarker(
+                [44.2848015, -121.8410034],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_99e111bf836e435ba1d7b08a7f06335c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8212aaeeb5b14a2d90ebbf586fd31f5b = $('<div id="html_8212aaeeb5b14a2d90ebbf586fd31f5b" style="width: 100.0%; height: 100.0%;">Belknap.  Elevation: 6873 ft.  2285 miles from Elvis.</div>')[0];
+                popup_99e111bf836e435ba1d7b08a7f06335c.setContent(html_8212aaeeb5b14a2d90ebbf586fd31f5b);
+            
+
+            circle_marker_abe384fc359c4cb18cb2f3ead14b2266.bindPopup(popup_99e111bf836e435ba1d7b08a7f06335c)
+            ;
+
+            
+        
+    
+            var circle_marker_ac72af0178a9467bae2c4eff3854f082 = L.circleMarker(
+                [44.1697998, -121.7710037],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_23a123be5c3d4cdea9ee0002c3944840 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1ecf8e3d4eeb4dcc9f4d1e988966a8c3 = $('<div id="html_1ecf8e3d4eeb4dcc9f4d1e988966a8c3" style="width: 100.0%; height: 100.0%;">North Sister Field.  Elevation: 10085 ft.  2279 miles from Elvis.</div>')[0];
+                popup_23a123be5c3d4cdea9ee0002c3944840.setContent(html_1ecf8e3d4eeb4dcc9f4d1e988966a8c3);
+            
+
+            circle_marker_ac72af0178a9467bae2c4eff3854f082.bindPopup(popup_23a123be5c3d4cdea9ee0002c3944840)
+            ;
+
+            
+        
+    
+            var circle_marker_d44686b1abab4204b6fb1e97020033ca = L.circleMarker(
+                [44.099800099999996, -121.7710037],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_ae3c144276cc40abb49eaa831fee5e63 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_261bc427d12f45dbb341f98c2be46271 = $('<div id="html_261bc427d12f45dbb341f98c2be46271" style="width: 100.0%; height: 100.0%;">South Sister.  Elevation: 10357 ft.  2277 miles from Elvis.</div>')[0];
+                popup_ae3c144276cc40abb49eaa831fee5e63.setContent(html_261bc427d12f45dbb341f98c2be46271);
+            
+
+            circle_marker_d44686b1abab4204b6fb1e97020033ca.bindPopup(popup_ae3c144276cc40abb49eaa831fee5e63)
+            ;
+
+            
+        
+    
+            var circle_marker_d4fa1913620b4e6f9a106f2bd3ca15d2 = L.circleMarker(
+                [43.978801700000005, -121.6809998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_60a3d6f83d024707a5076c4fc797b241 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_76f7cf87655c42928d0b06776a894ffa = $('<div id="html_76f7cf87655c42928d0b06776a894ffa" style="width: 100.0%; height: 100.0%;">Bachelor.  Elevation: 9064 ft.  2269 miles from Elvis.</div>')[0];
+                popup_60a3d6f83d024707a5076c4fc797b241.setContent(html_76f7cf87655c42928d0b06776a894ffa);
+            
+
+            circle_marker_d4fa1913620b4e6f9a106f2bd3ca15d2.bindPopup(popup_60a3d6f83d024707a5076c4fc797b241)
+            ;
+
+            
+        
+    
+            var circle_marker_eac0fa2804c74702b329a65bfae8fdaa = L.circleMarker(
+                [43.7218018, -121.2210007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_702b92b94425483587b7fc885f4908f3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3c73ba19b07d4e57bc1449c51c3c831e = $('<div id="html_3c73ba19b07d4e57bc1449c51c3c831e" style="width: 100.0%; height: 100.0%;">Newberry Volcano.  Elevation: 7985 ft.  2234 miles from Elvis.</div>')[0];
+                popup_702b92b94425483587b7fc885f4908f3.setContent(html_3c73ba19b07d4e57bc1449c51c3c831e);
+            
+
+            circle_marker_eac0fa2804c74702b329a65bfae8fdaa.bindPopup(popup_702b92b94425483587b7fc885f4908f3)
+            ;
+
+            
+        
+    
+            var circle_marker_b9d9936510614b84b10dca8f4ace2813 = L.circleMarker(
+                [43.569801299999995, -121.8209991],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_86d8ef6d4ca648a6846ca30e627040e2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9ded6fd554844e7fb3b8c432e7a26108 = $('<div id="html_9ded6fd554844e7fb3b8c432e7a26108" style="width: 100.0%; height: 100.0%;">Davis Lake.  Elevation: 7096 ft.  2271 miles from Elvis.</div>')[0];
+                popup_86d8ef6d4ca648a6846ca30e627040e2.setContent(html_9ded6fd554844e7fb3b8c432e7a26108);
+            
+
+            circle_marker_b9d9936510614b84b10dca8f4ace2813.bindPopup(popup_86d8ef6d4ca648a6846ca30e627040e2)
+            ;
+
+            
+        
+    
+            var circle_marker_2b3e221ca72d4cedb6d284b76d62e349 = L.circleMarker(
+                [43.5119019, -120.8610001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_c5893baaf80046be8755c098195b2709 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_be238c0090ab4a97bf352fcd38eee092 = $('<div id="html_be238c0090ab4a97bf352fcd38eee092" style="width: 100.0%; height: 100.0%;">Devils Garden.  Elevation: 5570 ft.  2206 miles from Elvis.</div>')[0];
+                popup_c5893baaf80046be8755c098195b2709.setContent(html_be238c0090ab4a97bf352fcd38eee092);
+            
+
+            circle_marker_2b3e221ca72d4cedb6d284b76d62e349.bindPopup(popup_c5893baaf80046be8755c098195b2709)
+            ;
+
+            
+        
+    
+            var circle_marker_9e8c79d9f9d6439fb4f9619f16524eed = L.circleMarker(
+                [43.240798999999996, -122.10099790000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_e4a6583853824dcbad3956a9e9165fea = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e2710719ceb449d1936a84a7fa068041 = $('<div id="html_e2710719ceb449d1936a84a7fa068041" style="width: 100.0%; height: 100.0%;">Cinnamon Butte.  Elevation: 6417 ft.  2284 miles from Elvis.</div>')[0];
+                popup_e4a6583853824dcbad3956a9e9165fea.setContent(html_e2710719ceb449d1936a84a7fa068041);
+            
+
+            circle_marker_9e8c79d9f9d6439fb4f9619f16524eed.bindPopup(popup_e4a6583853824dcbad3956a9e9165fea)
+            ;
+
+            
+        
+    
+            var circle_marker_d4c5f6a930fb48a1b90a0fbce8a78342 = L.circleMarker(
+                [43.471900899999994, -120.7509995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_e6c0711f9e514ec4809e0cc05f40a3a5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f6756c3a1c754165a1b13a22f28ff358 = $('<div id="html_f6756c3a1c754165a1b13a22f28ff358" style="width: 100.0%; height: 100.0%;">Squaw Ridge Lava Field.  Elevation: 5613 ft.  2198 miles from Elvis.</div>')[0];
+                popup_e6c0711f9e514ec4809e0cc05f40a3a5.setContent(html_f6756c3a1c754165a1b13a22f28ff358);
+            
+
+            circle_marker_d4c5f6a930fb48a1b90a0fbce8a78342.bindPopup(popup_e6c0711f9e514ec4809e0cc05f40a3a5)
+            ;
+
+            
+        
+    
+            var circle_marker_6c58a0527ee347548549ef35a4062848 = L.circleMarker(
+                [43.3609009, -120.6610031],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_2a024eb1d6ba4667ad0a818e380178d0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_964d63d4eace44deb1cb8382ed08c57a = $('<div id="html_964d63d4eace44deb1cb8382ed08c57a" style="width: 100.0%; height: 100.0%;">Four Craters Lava Field.  Elevation: 4924 ft.  2190 miles from Elvis.</div>')[0];
+                popup_2a024eb1d6ba4667ad0a818e380178d0.setContent(html_964d63d4eace44deb1cb8382ed08c57a);
+            
+
+            circle_marker_6c58a0527ee347548549ef35a4062848.bindPopup(popup_2a024eb1d6ba4667ad0a818e380178d0)
+            ;
+
+            
+        
+    
+            var circle_marker_ae768bb06f8a4d61928c2d66cfda77d1 = L.circleMarker(
+                [42.9299011, -122.1210022],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_4533a6bb4ce64c128430134ebc653dd6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9e60eefb61c4483ba9698c53d15ecc95 = $('<div id="html_9e60eefb61c4483ba9698c53d15ecc95" style="width: 100.0%; height: 100.0%;">Crater Lake.  Elevation: 8159 ft.  2280 miles from Elvis.</div>')[0];
+                popup_4533a6bb4ce64c128430134ebc653dd6.setContent(html_9e60eefb61c4483ba9698c53d15ecc95);
+            
+
+            circle_marker_ae768bb06f8a4d61928c2d66cfda77d1.bindPopup(popup_4533a6bb4ce64c128430134ebc653dd6)
+            ;
+
+            
+        
+    
+            var circle_marker_f5601969e95e4403a1f20e3131036cf1 = L.circleMarker(
+                [44.4299011, -110.6709976],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_8d9cbb8a26434190b92f58067b5c5a35 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d3a4dfee2d57445f82117987bd0f4815 = $('<div id="html_d3a4dfee2d57445f82117987bd0f4815" style="width: 100.0%; height: 100.0%;">Yellowstone.  Elevation: 9202 ft.  1564 miles from Elvis.</div>')[0];
+                popup_8d9cbb8a26434190b92f58067b5c5a35.setContent(html_d3a4dfee2d57445f82117987bd0f4815);
+            
+
+            circle_marker_f5601969e95e4403a1f20e3131036cf1.bindPopup(popup_8d9cbb8a26434190b92f58067b5c5a35)
+            ;
+
+            
+        
+    
+            var circle_marker_d3439b613e814865b1173a90be2df12d = L.circleMarker(
+                [43.0998993, -118.7509995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_b1399a5304a74538959477f9d7916e83 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3bc0b1ad57654383a038a77ea6aa53ac = $('<div id="html_3bc0b1ad57654383a038a77ea6aa53ac" style="width: 100.0%; height: 100.0%;">Diamond Craters.  Elevation: 4708 ft.  2058 miles from Elvis.</div>')[0];
+                popup_b1399a5304a74538959477f9d7916e83.setContent(html_3bc0b1ad57654383a038a77ea6aa53ac);
+            
+
+            circle_marker_d3439b613e814865b1173a90be2df12d.bindPopup(popup_b1399a5304a74538959477f9d7916e83)
+            ;
+
+            
+        
+    
+            var circle_marker_693208fef46944e7810ed3a60d503d39 = L.circleMarker(
+                [43.1498985, -117.4710007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_c625b72f27074fd78d5eba384a80d8f6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_df507b5281214ec4b196c489d8900ced = $('<div id="html_df507b5281214ec4b196c489d8900ced" style="width: 100.0%; height: 100.0%;">Jordan Craters.  Elevation: 4832 ft.  1974 miles from Elvis.</div>')[0];
+                popup_c625b72f27074fd78d5eba384a80d8f6.setContent(html_df507b5281214ec4b196c489d8900ced);
+            
+
+            circle_marker_693208fef46944e7810ed3a60d503d39.bindPopup(popup_c625b72f27074fd78d5eba384a80d8f6)
+            ;
+
+            
+        
+    
+            var circle_marker_8c6231baf86b4b3cbf1dd275092e6647 = L.circleMarker(
+                [42.9999008, -117.8010025],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_65f30b6179e8410ea93135ae530e6c05 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_aab4b978dabf4845b4dbfd35755e4aa2 = $('<div id="html_aab4b978dabf4845b4dbfd35755e4aa2" style="width: 100.0%; height: 100.0%;">Saddle Butte.  Elevation: 5577 ft.  1993 miles from Elvis.</div>')[0];
+                popup_65f30b6179e8410ea93135ae530e6c05.setContent(html_aab4b978dabf4845b4dbfd35755e4aa2);
+            
+
+            circle_marker_8c6231baf86b4b3cbf1dd275092e6647.bindPopup(popup_65f30b6179e8410ea93135ae530e6c05)
+            ;
+
+            
+        
+    
+            var circle_marker_f74d3eec379348b2935070a1b1098c4d = L.circleMarker(
+                [43.419899, -113.5009995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_9d9df30a3cc64fee96186d9d24c44c9c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_85ccc5e9685b4653a4cc95f0a9bea35a = $('<div id="html_85ccc5e9685b4653a4cc95f0a9bea35a" style="width: 100.0%; height: 100.0%;">Craters of the Moon.  Elevation: 6578 ft.  1719 miles from Elvis.</div>')[0];
+                popup_9d9df30a3cc64fee96186d9d24c44c9c.setContent(html_85ccc5e9685b4653a4cc95f0a9bea35a);
+            
+
+            circle_marker_f74d3eec379348b2935070a1b1098c4d.bindPopup(popup_9d9df30a3cc64fee96186d9d24c44c9c)
+            ;
+
+            
+        
+    
+            var circle_marker_3be56001a888464ab769d1f237262cc9 = L.circleMarker(
+                [43.4999008, -112.45099640000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_a86edff34565410aa5e75916f0a20743 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8368424d9611493fb7e3d1750401f86a = $('<div id="html_8368424d9611493fb7e3d1750401f86a" style="width: 100.0%; height: 100.0%;">Hells Half Acre.  Elevation: 5351 ft.  1653 miles from Elvis.</div>')[0];
+                popup_a86edff34565410aa5e75916f0a20743.setContent(html_8368424d9611493fb7e3d1750401f86a);
+            
+
+            circle_marker_3be56001a888464ab769d1f237262cc9.bindPopup(popup_a86edff34565410aa5e75916f0a20743)
+            ;
+
+            
+        
+    
+            var circle_marker_8ee0b6704181438ba0c15642f0bc300d = L.circleMarker(
+                [43.1799011, -114.35099790000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_d845ccf37d0a44fca0ff41ff7c0f31b0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2ef5306f4b774acbbd635f98de99fa60 = $('<div id="html_2ef5306f4b774acbbd635f98de99fa60" style="width: 100.0%; height: 100.0%;">Shoshone Lava Field.  Elevation: 4849 ft.  1769 miles from Elvis.</div>')[0];
+                popup_d845ccf37d0a44fca0ff41ff7c0f31b0.setContent(html_2ef5306f4b774acbbd635f98de99fa60);
+            
+
+            circle_marker_8ee0b6704181438ba0c15642f0bc300d.bindPopup(popup_d845ccf37d0a44fca0ff41ff7c0f31b0)
+            ;
+
+            
+        
+    
+            var circle_marker_dbdfe5bc2e9e47b6a6b9be3b7d6c6122 = L.circleMarker(
+                [42.605899799999996, -117.5810013],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_8cc7f19eb59c4fd79ed46ba0cd909fa3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_889eac21f81447e99e3eb4ba67838b72 = $('<div id="html_889eac21f81447e99e3eb4ba67838b72" style="width: 100.0%; height: 100.0%;">Jackies Butte.  Elevation: 4652 ft.  1971 miles from Elvis.</div>')[0];
+                popup_8cc7f19eb59c4fd79ed46ba0cd909fa3.setContent(html_889eac21f81447e99e3eb4ba67838b72);
+            
+
+            circle_marker_dbdfe5bc2e9e47b6a6b9be3b7d6c6122.bindPopup(popup_8cc7f19eb59c4fd79ed46ba0cd909fa3)
+            ;
+
+            
+        
+    
+            var circle_marker_22a61ee5d084446cbde1d662e3a718a0 = L.circleMarker(
+                [41.579898799999995, -121.5709991],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_d8a255495deb4197a59b0b8e2bbd09b2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_df95f741434d4de09e56ae9c37a83fcb = $('<div id="html_df95f741434d4de09e56ae9c37a83fcb" style="width: 100.0%; height: 100.0%;">Medicine Lake.  Elevation: 7913 ft.  2222 miles from Elvis.</div>')[0];
+                popup_d8a255495deb4197a59b0b8e2bbd09b2.setContent(html_df95f741434d4de09e56ae9c37a83fcb);
+            
+
+            circle_marker_22a61ee5d084446cbde1d662e3a718a0.bindPopup(popup_d8a255495deb4197a59b0b8e2bbd09b2)
+            ;
+
+            
+        
+    
+            var circle_marker_7c6397adbf274699a880115e5a50765b = L.circleMarker(
+                [42.8799019, -113.2210007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_158f8c4a3a094ebfb23c99864841642d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f45bcf2b790347f6a6d1808e91736dbb = $('<div id="html_f45bcf2b790347f6a6d1808e91736dbb" style="width: 100.0%; height: 100.0%;">Wapi Lava Field.  Elevation: 5262 ft.  1689 miles from Elvis.</div>')[0];
+                popup_158f8c4a3a094ebfb23c99864841642d.setContent(html_f45bcf2b790347f6a6d1808e91736dbb);
+            
+
+            circle_marker_7c6397adbf274699a880115e5a50765b.bindPopup(popup_158f8c4a3a094ebfb23c99864841642d)
+            ;
+
+            
+        
+    
+            var circle_marker_cc8a0dfa7a4e454da0ef59d4dbf53c5c = L.circleMarker(
+                [41.419899, -122.20099640000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_d2104f82c2d04e1b98f46562c831a165 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_aed89f3abace4905a53fe9b749390ac5 = $('<div id="html_aed89f3abace4905a53fe9b749390ac5" style="width: 100.0%; height: 100.0%;">Shasta.  Elevation: 14163 ft.  2263 miles from Elvis.</div>')[0];
+                popup_d2104f82c2d04e1b98f46562c831a165.setContent(html_aed89f3abace4905a53fe9b749390ac5);
+            
+
+            circle_marker_cc8a0dfa7a4e454da0ef59d4dbf53c5c.bindPopup(popup_d2104f82c2d04e1b98f46562c831a165)
+            ;
+
+            
+        
+    
+            var circle_marker_5c93d70d4a964b0ca2e73c768260b28b = L.circleMarker(
+                [41.1778984, -121.4410019],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_58ecc80a52404a9cbd82f46fe725dc88 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3dd21f6b48ef4c1e8d4a1096170d85c9 = $('<div id="html_3dd21f6b48ef4c1e8d4a1096170d85c9" style="width: 100.0%; height: 100.0%;">Brushy Butte.  Elevation: 3851 ft.  2208 miles from Elvis.</div>')[0];
+                popup_58ecc80a52404a9cbd82f46fe725dc88.setContent(html_3dd21f6b48ef4c1e8d4a1096170d85c9);
+            
+
+            circle_marker_5c93d70d4a964b0ca2e73c768260b28b.bindPopup(popup_58ecc80a52404a9cbd82f46fe725dc88)
+            ;
+
+            
+        
+    
+            var circle_marker_e97cc9db4cd64e039b9df1e7697d8670 = L.circleMarker(
+                [40.954898799999995, -121.3610001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_1106e35cd86046eaa3c1880e226c0226 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_18b638b1025544e89f91e471cbb2982f = $('<div id="html_18b638b1025544e89f91e471cbb2982f" style="width: 100.0%; height: 100.0%;">Big Cave.  Elevation: 4130 ft.  2200 miles from Elvis.</div>')[0];
+                popup_1106e35cd86046eaa3c1880e226c0226.setContent(html_18b638b1025544e89f91e471cbb2982f);
+            
+
+            circle_marker_e97cc9db4cd64e039b9df1e7697d8670.bindPopup(popup_1106e35cd86046eaa3c1880e226c0226)
+            ;
+
+            
+        
+    
+            var circle_marker_b6c69cd092b2468e91e624e52a2213ea = L.circleMarker(
+                [40.77989960000001, -121.60099790000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_32221b42520c4e01a0fe7a4563768d4b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a479ee8fa4b44992a6d2cb392a1adfbf = $('<div id="html_a479ee8fa4b44992a6d2cb392a1adfbf" style="width: 100.0%; height: 100.0%;">Twin Buttes.  Elevation: 5351 ft.  2214 miles from Elvis.</div>')[0];
+                popup_32221b42520c4e01a0fe7a4563768d4b.setContent(html_a479ee8fa4b44992a6d2cb392a1adfbf);
+            
+
+            circle_marker_b6c69cd092b2468e91e624e52a2213ea.bindPopup(popup_32221b42520c4e01a0fe7a4563768d4b)
+            ;
+
+            
+        
+    
+            var circle_marker_ca844530baca43cdadd01ed79904e8ac = L.circleMarker(
+                [40.6799011, -121.5510025],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_0eb1609bec8141d792500512531a7aa7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_49220ed250fd4d82aaaf6f3eb45d92af = $('<div id="html_49220ed250fd4d82aaaf6f3eb45d92af" style="width: 100.0%; height: 100.0%;">Tumble Buttes.  Elevation: 7188 ft.  2209 miles from Elvis.</div>')[0];
+                popup_0eb1609bec8141d792500512531a7aa7.setContent(html_49220ed250fd4d82aaaf6f3eb45d92af);
+            
+
+            circle_marker_ca844530baca43cdadd01ed79904e8ac.bindPopup(popup_0eb1609bec8141d792500512531a7aa7)
+            ;
+
+            
+        
+    
+            var circle_marker_c87e6dba7afe4a17b941f12087d93523 = L.circleMarker(
+                [40.6299019, -120.8310013],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_443e9b00eb714b02a3a428e138269991 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_34033c78cf9344dd90c39adc9cacc0e1 = $('<div id="html_34033c78cf9344dd90c39adc9cacc0e1" style="width: 100.0%; height: 100.0%;">Eagle Lake Field.  Elevation: 5419 ft.  2160 miles from Elvis.</div>')[0];
+                popup_443e9b00eb714b02a3a428e138269991.setContent(html_34033c78cf9344dd90c39adc9cacc0e1);
+            
+
+            circle_marker_c87e6dba7afe4a17b941f12087d93523.bindPopup(popup_443e9b00eb714b02a3a428e138269991)
+            ;
+
+            
+        
+    
+            var circle_marker_e871bdae4b264adea5ad59c6bb8b220b = L.circleMarker(
+                [40.491901399999996, -121.5009995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_5c1882075d984d93a3707d32e7f053fd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d7ea64e72c5d42ae9ba2e7cabdc34c0c = $('<div id="html_d7ea64e72c5d42ae9ba2e7cabdc34c0c" style="width: 100.0%; height: 100.0%;">Lassen Volc Center.  Elevation: 10456 ft.  2204 miles from Elvis.</div>')[0];
+                popup_5c1882075d984d93a3707d32e7f053fd.setContent(html_d7ea64e72c5d42ae9ba2e7cabdc34c0c);
+            
+
+            circle_marker_e871bdae4b264adea5ad59c6bb8b220b.bindPopup(popup_5c1882075d984d93a3707d32e7f053fd)
+            ;
+
+            
+        
+    
+            var circle_marker_32e6418eda5443a98c9c461f123e49d1 = L.circleMarker(
+                [38.9698982, -122.7710037],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_6d79de4d2cc94cf0bcb09515e6899907 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b3fb96a4a96f49869d178b77efef90db = $('<div id="html_b3fb96a4a96f49869d178b77efef90db" style="width: 100.0%; height: 100.0%;">Clear Lake.  Elevation: 4721 ft.  2275 miles from Elvis.</div>')[0];
+                popup_6d79de4d2cc94cf0bcb09515e6899907.setContent(html_b3fb96a4a96f49869d178b77efef90db);
+            
+
+            circle_marker_32e6418eda5443a98c9c461f123e49d1.bindPopup(popup_6d79de4d2cc94cf0bcb09515e6899907)
+            ;
+
+            
+        
+    
+            var circle_marker_d256b01f9e8e40ec95e48a3cd0ef9e5c = L.circleMarker(
+                [39.3749008, -119.7210007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_07140dbd7b8c4ec28f4141abc238c4d4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ece32ea5f3004e4a86d76a08db3b1cd7 = $('<div id="html_ece32ea5f3004e4a86d76a08db3b1cd7" style="width: 100.0%; height: 100.0%;">Steamboat Springs.  Elevation: 4642 ft.  2070 miles from Elvis.</div>')[0];
+                popup_07140dbd7b8c4ec28f4141abc238c4d4.setContent(html_ece32ea5f3004e4a86d76a08db3b1cd7);
+            
+
+            circle_marker_d256b01f9e8e40ec95e48a3cd0ef9e5c.bindPopup(popup_07140dbd7b8c4ec28f4141abc238c4d4)
+            ;
+
+            
+        
+    
+            var circle_marker_42f3ad7b76654be1af3dfef40586e972 = L.circleMarker(
+                [39.6500015, -107.03099820000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_382a2a9786334aecad0f10b32f639b00 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2247fd2b1a7b4cedb77d802401b9f88a = $('<div id="html_2247fd2b1a7b4cedb77d802401b9f88a" style="width: 100.0%; height: 100.0%;">Dotsero.  Elevation: 7316 ft.  1215 miles from Elvis.</div>')[0];
+                popup_382a2a9786334aecad0f10b32f639b00.setContent(html_2247fd2b1a7b4cedb77d802401b9f88a);
+            
+
+            circle_marker_42f3ad7b76654be1af3dfef40586e972.bindPopup(popup_382a2a9786334aecad0f10b32f639b00)
+            ;
+
+            
+        
+    
+            var circle_marker_5271d4ebe07e4bd0b7e7eca86bb37dc4 = L.circleMarker(
+                [37.9999008, -119.03099820000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_574b87047edc419ca211c45657132608 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bf0af85fd04d4701a4954d71d2e70e3d = $('<div id="html_bf0af85fd04d4701a4954d71d2e70e3d" style="width: 100.0%; height: 100.0%;">Mono Lake Volc Field.  Elevation: 6958 ft.  2011 miles from Elvis.</div>')[0];
+                popup_574b87047edc419ca211c45657132608.setContent(html_bf0af85fd04d4701a4954d71d2e70e3d);
+            
+
+            circle_marker_5271d4ebe07e4bd0b7e7eca86bb37dc4.bindPopup(popup_574b87047edc419ca211c45657132608)
+            ;
+
+            
+        
+    
+            var circle_marker_98038c8cb7934f7f8fc764c911afea1c = L.circleMarker(
+                [38.970001200000006, -112.5009995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_bb0fbb05229f44a192db605349fb1703 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1a2984d6d13e467fa9416e5e01b9e1df = $('<div id="html_1a2984d6d13e467fa9416e5e01b9e1df" style="width: 100.0%; height: 100.0%;">Black Rock Desert.  Elevation: 5905 ft.  1574 miles from Elvis.</div>')[0];
+                popup_bb0fbb05229f44a192db605349fb1703.setContent(html_1a2984d6d13e467fa9416e5e01b9e1df);
+            
+
+            circle_marker_98038c8cb7934f7f8fc764c911afea1c.bindPopup(popup_bb0fbb05229f44a192db605349fb1703)
+            ;
+
+            
+        
+    
+            var circle_marker_202cf86ef8e44989a83b9a93301c1985 = L.circleMarker(
+                [37.8799019, -119.0009995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_32dabb572e5940cf99803d40d6564862 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_50b1702e641a4809a975b0bee6678740 = $('<div id="html_50b1702e641a4809a975b0bee6678740" style="width: 100.0%; height: 100.0%;">Mono Craters.  Elevation: 9173 ft.  2008 miles from Elvis.</div>')[0];
+                popup_32dabb572e5940cf99803d40d6564862.setContent(html_50b1702e641a4809a975b0bee6678740);
+            
+
+            circle_marker_202cf86ef8e44989a83b9a93301c1985.bindPopup(popup_32dabb572e5940cf99803d40d6564862)
+            ;
+
+            
+        
+    
+            var circle_marker_dd7578b83e50471d86f6c06c2bfff77b = L.circleMarker(
+                [37.6918983, -119.0210037],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_57a545d81c754a40b3abb93738d900ed = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_795fcae83ccd4249b9c89ba33b3a3097 = $('<div id="html_795fcae83ccd4249b9c89ba33b3a3097" style="width: 100.0%; height: 100.0%;">Inyo Craters.  Elevation: 8625 ft.  2008 miles from Elvis.</div>')[0];
+                popup_57a545d81c754a40b3abb93738d900ed.setContent(html_795fcae83ccd4249b9c89ba33b3a3097);
+            
+
+            circle_marker_dd7578b83e50471d86f6c06c2bfff77b.bindPopup(popup_57a545d81c754a40b3abb93738d900ed)
+            ;
+
+            
+        
+    
+            var circle_marker_0eb14e322f554b61aa78cfce80663711 = L.circleMarker(
+                [37.6999016, -118.8710022],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_2be848d9c2ae49608ed3ec10511aa6ad = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8f0645dbd4c94ed1bd41fc339f10cb72 = $('<div id="html_8f0645dbd4c94ed1bd41fc339f10cb72" style="width: 100.0%; height: 100.0%;">Long Valley.  Elevation: 11122 ft.  1998 miles from Elvis.</div>')[0];
+                popup_2be848d9c2ae49608ed3ec10511aa6ad.setContent(html_8f0645dbd4c94ed1bd41fc339f10cb72);
+            
+
+            circle_marker_0eb14e322f554b61aa78cfce80663711.bindPopup(popup_2be848d9c2ae49608ed3ec10511aa6ad)
+            ;
+
+            
+        
+    
+            var circle_marker_d06b02d90e3c4a5783f2a6e67bba0380 = L.circleMarker(
+                [37.579898799999995, -119.0510025],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_97000e7ee9dc496484882f5b12545e3c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d41781b648804bd4b2186afb302178cc = $('<div id="html_d41781b648804bd4b2186afb302178cc" style="width: 100.0%; height: 100.0%;">Red Cones.  Elevation: 9015 ft.  2010 miles from Elvis.</div>')[0];
+                popup_97000e7ee9dc496484882f5b12545e3c.setContent(html_d41781b648804bd4b2186afb302178cc);
+            
+
+            circle_marker_d06b02d90e3c4a5783f2a6e67bba0380.bindPopup(popup_97000e7ee9dc496484882f5b12545e3c)
+            ;
+
+            
+        
+    
+            var circle_marker_f295d2fb0d0c4104a001ce22f898d351 = L.circleMarker(
+                [37.0199013, -117.45099640000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_af22fee4d0a94845ad5aa864ae7ccc33 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2da132810de74e85a9657ec4b8f583d5 = $('<div id="html_2da132810de74e85a9657ec4b8f583d5" style="width: 100.0%; height: 100.0%;">Ubehebe Craters.  Elevation: 2467 ft.  1897 miles from Elvis.</div>')[0];
+                popup_af22fee4d0a94845ad5aa864ae7ccc33.setContent(html_2da132810de74e85a9657ec4b8f583d5);
+            
+
+            circle_marker_f295d2fb0d0c4104a001ce22f898d351.bindPopup(popup_af22fee4d0a94845ad5aa864ae7ccc33)
+            ;
+
+            
+        
+    
+            var circle_marker_1c9a904790bf4b5684119bde6e8f4a78 = L.circleMarker(
+                [37.5800018, -112.6709976],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_ba9c25bc92694b37a8a9434c7f1cf82b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d9711818f8a24887a7a71b53a3372472 = $('<div id="html_d9711818f8a24887a7a71b53a3372472" style="width: 100.0%; height: 100.0%;">Markagunt Plateau.  Elevation: 9317 ft.  1572 miles from Elvis.</div>')[0];
+                popup_ba9c25bc92694b37a8a9434c7f1cf82b.setContent(html_d9711818f8a24887a7a71b53a3372472);
+            
+
+            circle_marker_1c9a904790bf4b5684119bde6e8f4a78.bindPopup(popup_ba9c25bc92694b37a8a9434c7f1cf82b)
+            ;
+
+            
+        
+    
+            var circle_marker_15da01c4df15490ba88b3b1d0f3dbe4a = L.circleMarker(
+                [37.257, -113.6210022],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_4625d6a881b64adf95093d2598d8f75f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f2623b1979354437b99db41965cdc2cf = $('<div id="html_f2623b1979354437b99db41965cdc2cf" style="width: 100.0%; height: 100.0%;">Santa Clara.  Elevation: 4806 ft.  1635 miles from Elvis.</div>')[0];
+                popup_4625d6a881b64adf95093d2598d8f75f.setContent(html_f2623b1979354437b99db41965cdc2cf);
+            
+
+            circle_marker_15da01c4df15490ba88b3b1d0f3dbe4a.bindPopup(popup_4625d6a881b64adf95093d2598d8f75f)
+            ;
+
+            
+        
+    
+            var circle_marker_db7e7f8b7c3e4f5b9816271732a10450 = L.circleMarker(
+                [37.32799910000001, -112.40100100000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_efc7c26f07a04d518755202a4b676894 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b36cb1b660bc4e73bfd3f52143df9207 = $('<div id="html_b36cb1b660bc4e73bfd3f52143df9207" style="width: 100.0%; height: 100.0%;">Bald Knoll.  Elevation: 7004 ft.  1551 miles from Elvis.</div>')[0];
+                popup_efc7c26f07a04d518755202a4b676894.setContent(html_b36cb1b660bc4e73bfd3f52143df9207);
+            
+
+            circle_marker_db7e7f8b7c3e4f5b9816271732a10450.bindPopup(popup_efc7c26f07a04d518755202a4b676894)
+            ;
+
+            
+        
+    
+            var circle_marker_e35eaf4035614fdd88dddf6cc67556e5 = L.circleMarker(
+                [36.3578987, -118.3209991],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_6fe19413e2f54933b875656fad991285 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_91950a70d72e4eaf96c6ce4512c04402 = $('<div id="html_91950a70d72e4eaf96c6ce4512c04402" style="width: 100.0%; height: 100.0%;">Golden Trout Creek.  Elevation: 9468 ft.  1954 miles from Elvis.</div>')[0];
+                popup_6fe19413e2f54933b875656fad991285.setContent(html_91950a70d72e4eaf96c6ce4512c04402);
+            
+
+            circle_marker_e35eaf4035614fdd88dddf6cc67556e5.bindPopup(popup_6fe19413e2f54933b875656fad991285)
+            ;
+
+            
+        
+    
+            var circle_marker_e9aa5dc108ce4618aa490267d229a96d = L.circleMarker(
+                [36.02989960000001, -117.8209991],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_39c686cd4eae40fc8fdfd64a8e02e9d3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_240734069d264733af4ddf0523a59858 = $('<div id="html_240734069d264733af4ddf0523a59858" style="width: 100.0%; height: 100.0%;">Coso Volc Field.  Elevation: 7874 ft.  1919 miles from Elvis.</div>')[0];
+                popup_39c686cd4eae40fc8fdfd64a8e02e9d3.setContent(html_240734069d264733af4ddf0523a59858);
+            
+
+            circle_marker_e9aa5dc108ce4618aa490267d229a96d.bindPopup(popup_39c686cd4eae40fc8fdfd64a8e02e9d3)
+            ;
+
+            
+        
+    
+            var circle_marker_a60f05e7f6f54085a6e051c0732d68c5 = L.circleMarker(
+                [36.3800011, -113.1309967],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_62335b9302444040ac9a873eb1237b71 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_61fbaa0a45c84003832158eb518b9240 = $('<div id="html_61fbaa0a45c84003832158eb518b9240" style="width: 100.0%; height: 100.0%;">Uinkaret Field.  Elevation: 5101 ft.  1596 miles from Elvis.</div>')[0];
+                popup_62335b9302444040ac9a873eb1237b71.setContent(html_61fbaa0a45c84003832158eb518b9240);
+            
+
+            circle_marker_a60f05e7f6f54085a6e051c0732d68c5.bindPopup(popup_62335b9302444040ac9a873eb1237b71)
+            ;
+
+            
+        
+    
+            var circle_marker_d3dfc64f322b4807b12f95a71be1a7ed = L.circleMarker(
+                [34.75, -116.6210022],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_c823cac5d1a9400892b46fd427f5c70d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d261d4ef5dd34a60b9b2a5c28c7b5a2f = $('<div id="html_d261d4ef5dd34a60b9b2a5c28c7b5a2f" style="width: 100.0%; height: 100.0%;">Lavic Lake.  Elevation: 4904 ft.  1835 miles from Elvis.</div>')[0];
+                popup_c823cac5d1a9400892b46fd427f5c70d.setContent(html_d261d4ef5dd34a60b9b2a5c28c7b5a2f);
+            
+
+            circle_marker_d3dfc64f322b4807b12f95a71be1a7ed.bindPopup(popup_c823cac5d1a9400892b46fd427f5c70d)
+            ;
+
+            
+        
+    
+            var circle_marker_8a8f291d9f2d411a950a3614a378fa1a = L.circleMarker(
+                [35.8699989, -106.5709991],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_41471946abdf4f25af2a57d8c0b0a1e0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_351b7e581c5a45bf9593113ae7230453 = $('<div id="html_351b7e581c5a45bf9593113ae7230453" style="width: 100.0%; height: 100.0%;">Valles Caldera.  Elevation: 11253 ft.  1143 miles from Elvis.</div>')[0];
+                popup_41471946abdf4f25af2a57d8c0b0a1e0.setContent(html_351b7e581c5a45bf9593113ae7230453);
+            
+
+            circle_marker_8a8f291d9f2d411a950a3614a378fa1a.bindPopup(popup_41471946abdf4f25af2a57d8c0b0a1e0)
+            ;
+
+            
+        
+    
+            var circle_marker_d9ed0a29968a4b12865e0c4a548067d7 = L.circleMarker(
+                [35.3699989, -111.5009995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_8e259f4e513d4654beed4665b23f2475 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_279e958ae17447958a0adaadbe91c083 = $('<div id="html_279e958ae17447958a0adaadbe91c083" style="width: 100.0%; height: 100.0%;">Sunset Crater.  Elevation: 8028 ft.  1481 miles from Elvis.</div>')[0];
+                popup_8e259f4e513d4654beed4665b23f2475.setContent(html_279e958ae17447958a0adaadbe91c083);
+            
+
+            circle_marker_d9ed0a29968a4b12865e0c4a548067d7.bindPopup(popup_8e259f4e513d4654beed4665b23f2475)
+            ;
+
+            
+        
+    
+            var circle_marker_4fb350a7fe074898ab460a247215a2bb = L.circleMarker(
+                [34.5499992, -115.78099820000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_6796b2d3de00447d83ae7ef1e2fc2ee2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_041263a250c14781b47a3f9ac123af4b = $('<div id="html_041263a250c14781b47a3f9ac123af4b" style="width: 100.0%; height: 100.0%;">Amboy.  Elevation: 944 ft.  1777 miles from Elvis.</div>')[0];
+                popup_6796b2d3de00447d83ae7ef1e2fc2ee2.setContent(html_041263a250c14781b47a3f9ac123af4b);
+            
+
+            circle_marker_4fb350a7fe074898ab460a247215a2bb.bindPopup(popup_6796b2d3de00447d83ae7ef1e2fc2ee2)
+            ;
+
+            
+        
+    
+            var circle_marker_c446bd3f4faf487c88c5c110367ef103 = L.circleMarker(
+                [34.7999992, -108.0009995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_c6b6eac157994e3dba64b02dc556b8aa = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_131e139ad0e54ac8a1314a8546b2d77a = $('<div id="html_131e139ad0e54ac8a1314a8546b2d77a" style="width: 100.0%; height: 100.0%;">Zuni-Bandera.  Elevation: 8366 ft.  1240 miles from Elvis.</div>')[0];
+                popup_c6b6eac157994e3dba64b02dc556b8aa.setContent(html_131e139ad0e54ac8a1314a8546b2d77a);
+            
+
+            circle_marker_c446bd3f4faf487c88c5c110367ef103.bindPopup(popup_c6b6eac157994e3dba64b02dc556b8aa)
+            ;
+
+            
+        
+    
+            var circle_marker_f38e01798a4d4e38abd53c66ebc9d585 = L.circleMarker(
+                [33.7801018, -105.9309998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "brown",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc8cd77509fd4402aea80364de3c4c9f);
+            
+    
+            var popup_12eefc4eb6804487835b5c505241071e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d1dcd512f4f040b8ad42f44176761d9e = $('<div id="html_d1dcd512f4f040b8ad42f44176761d9e" style="width: 100.0%; height: 100.0%;">Carrizozo.  Elevation: 5679 ft.  1100 miles from Elvis.</div>')[0];
+                popup_12eefc4eb6804487835b5c505241071e.setContent(html_d1dcd512f4f040b8ad42f44176761d9e);
+            
+
+            circle_marker_f38e01798a4d4e38abd53c66ebc9d585.bindPopup(popup_12eefc4eb6804487835b5c505241071e)
+            ;
+
+            
+        
+</script>
